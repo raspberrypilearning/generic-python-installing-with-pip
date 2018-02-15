@@ -50,6 +50,8 @@ sudo pip3 install name_of_module
 
 ## Other pip commands
 
+There is comprehensive [documentation for pip](https://pip.pypa.io) at [pip.pypa.io](https://pip.pypa.io), but here are some other useful commands:
+
 Upgrade an already installed module.
 
 ```bash
