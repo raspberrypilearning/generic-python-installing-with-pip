@@ -18,6 +18,8 @@ sudo pip3 install name_of_module
 
 ![pi pip install](images/pi_pip_install.gif)
 
+If you experience problems, have a look at [Using pip on Raspberry Pi](https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi)
+
 ## Windows
 
 + Open a command prompt by searching for *command prompt* and clicking on the app.
