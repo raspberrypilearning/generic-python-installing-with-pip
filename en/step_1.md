@@ -1,10 +1,10 @@
 `pip` or `pip3` is a command line tool for installing Python 3 modules.
 
-The modules are in packages which are downloaded from the [Python Package Index](https://pypi.python.org/pypi) on the internet and installed on your computer automatically.
+The modules are in packages which are downloaded from the [Python Package Index](https://pypi.python.org/pypi) and installed on your computer automatically.
 
 To install a module use the `pip3 install name_of_module` command, replacing *name_of_module* with the module you wish to install.
 
-Following the instructions below for your operating system.
+Follow the instructions below for your operating system.
 
 ## Raspberry Pi
 
@@ -38,7 +38,7 @@ If you experience problems, have a look at [Using pip on Windows](https://projec
 
 ## Linux
 
-+ Open a terminal
++ Open a terminal.
 
 + Enter this command to install the module.
 
@@ -50,7 +50,7 @@ sudo pip3 install name_of_module
 
 ## Other pip commands
 
-There is comprehensive [documentation for pip](https://pip.pypa.io) at [pip.pypa.io](https://pip.pypa.io), but here are some other useful commands:
+There is comprehensive [documentation for pip](https://pip.pypa.io) at [pip.pypa.io](https://pip.pypa.io), but here are a few useful commands:
 
 Upgrade an already installed module.
 
