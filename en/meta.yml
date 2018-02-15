@@ -1,6 +1,6 @@
-title: generic-python-using-pip
+title: generic-python-installing-with-pip
 hero_image: images/banner.png
-description: Install Python libraries with pip
+description: Install Python modules with pip
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
 listed: false
@@ -11,5 +11,5 @@ interests: ""
 technologies: "python"
 site_areas:
 steps:
-  - title: Installing python libraries
+  - title: Installing Python modules
   
