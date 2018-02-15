@@ -1,25 +1,56 @@
-## Introduction
+`pip` or `pip3` is a command line tool for installing Python 3 libraries.
 
-Add project description here. What will learners be making?
+The libraries are downloaded from the [Python Package Index](https://pypi.python.org/pypi) on the internet and installed on your computer automatically.
 
-### What you will make
+To install a library use the following `pip` command for operating system, replacing *library_name* with the library you wish to install.
 
-Add something here to showcase here, for example:
+## Raspberry Pi
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
++ Open a terminal by clicking Menu, Accessories, Terminal.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
++ Enter this command to install the library.
 
-### What you will learn
+```bash
+sudo pip3 install library_name
+```
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+![pi pip install](images/pi_pip_install.gif)
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
+## Windows
 
-### Additional information for educators
++ Open a command prompt by searching for *command prompt* and clicking on the app.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+![windows command prompt](images/windows_command_prompt_app.PNG)
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
++ Enter this command to install the library.
+
+```bash
+pip3 install library_name
+```
+
+![windows pip install](images/windows_pip_install.gif)
+
+If you experience problems, have a look at [Using pip on Windows](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
+
+## Mac OS
+
+## Linux
+
++ Open a terminal
+
++ Enter this command to install the library.
+
+```bash
+sudo pip3 install library_name
+```
+
+![linux pip install](images/linux_pip_install.gif)
+
+## Other pip commands
+
+If you want to uninstall the library.
+
+```bash
+sudo pip3 uninstall library_name
+```
+
