@@ -58,13 +58,13 @@ Upgrade an already installed module.
 pip3 install --upgrade name_of_module 
 ```
 
-Uninstall a library.
+Uninstall a module.
 
 ```bash
 pip3 uninstall name_of_module
 ```
 
-List installed libraries.
+List installed modules.
 
 ```bash
 pip3 list
