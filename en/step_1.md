@@ -22,7 +22,7 @@ If you experience problems, have a look at [Using pip on Raspberry Pi](https://p
 
 ## Windows
 
-+ Open a command prompt by searching for *command prompt* and clicking on the app.
++ Open a command prompt by clicking Start, Windows System, Command Prompt searching for *command*.
 
 ![windows command prompt](images/windows_command_prompt_app.PNG)
 
@@ -37,6 +37,16 @@ pip3 install name_of_module
 If you experience problems, have a look at [Using pip on Windows](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
 
 ## Mac OS
+
++ Open a terminal by clicking Applications, Utilities, Terminal or  searching for *terminal*.
+
++ Enter this command to install the module.
+
+```bash
+pip3 install name_of_module
+```
+
+![mac pip install](images/mac_pip_install.gif)
 
 ## Linux
 
