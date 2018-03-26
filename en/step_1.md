@@ -1,4 +1,4 @@
-## Installing Python modules with pip
+# Installing Python modules with pip
 
 `pip` or `pip3` is a command line tool for installing Python 3 modules.
 
@@ -8,7 +8,7 @@ To install a module, use the `pip3 install name_of_module` command, replacing `n
 
 Follow the instructions below for your operating system.
 
-### Raspberry Pi
+## Raspberry Pi
 
 + Open a terminal window by clicking **Menu** > **Accessories** > **Terminal**.
 
@@ -22,7 +22,7 @@ sudo pip3 install name_of_module
 
 If you experience problems, have a look at our guide [_Using pip on Raspberry Pi_](https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi).
 
-### Windows
+## Windows
 
 + Open a command prompt by clicking **Start** > **Windows System** > **Command Prompt**, or by typing 'command' into the start menu's search bar.
 
@@ -38,7 +38,7 @@ pip3 install name_of_module
 
 If you experience problems, have a look at our guide [_Using pip on Windows_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
 
-### macOS
+## macOS
 
 + Open a terminal window by clicking **Applications** > **Utilities** > **Terminal**, or by typing 'terminal' into the desktop's search bar.
 
@@ -50,7 +50,7 @@ pip3 install name_of_module
 
 ![mac pip install](images/mac_pip_install.gif)
 
-### Linux
+## Linux
 
 + Open a terminal window.
 
@@ -62,7 +62,7 @@ sudo pip3 install name_of_module
 
 ![linux pip install](images/linux_pip_install.gif)
 
-### Other pip commands
+## Other pip commands
 
 There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io); here are a few useful commands:
 
