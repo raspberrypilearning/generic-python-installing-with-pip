@@ -1,7 +1,7 @@
 ---
-title: Installing Python modules with pip
+title: Python-modules installeren met pip
 hero_image: images/banner.png
-description: Installing Python modules with pip
+description: Python-modules installeren met pip
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
 listed: false
@@ -13,4 +13,4 @@ technologies: "python"
 site_areas:
 steps:
   - 
-    title: Installing Python modules
+    title: Python-modules installeren
