@@ -64,9 +64,9 @@ sudo pip3 install name_of_module
 
 ## Troubleshooting installation issues
 
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Her are a few of the common issues, to help you identify problems you are having.
+There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Her are a few of the common issues, to help you identify problems.
 
-### Installation issues
+**Installation issues**
 
 When you try to install a package you may see error messages like the ones below:
 
@@ -82,7 +82,7 @@ The most common source of these errors is a mispelled package name.
 
 You should also check that you are using the package name and not the module name. For example, the package name for PIL (Python Imaging Library) is 'pillow' and not 'PIL'. 
 
-### Module import issues
+**Module import issues**
 
 If the module downloads but an error occurs when you try to import the module, check the following:
 
@@ -100,7 +100,7 @@ If the module downloads but an error occurs when you try to import the module, c
     pip3 list
     ```
 
-### Uninstalling and updating a package
+**Uninstalling or updating a package**
 
 In some cases you might need to uninstall a package or update to the latest version. 
 
