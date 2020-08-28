@@ -64,11 +64,11 @@ sudo pip3 install name_of_module
 
 ## Troubleshooting installation issues
 
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Her are a few of the common issues, to help you identify problems.
+There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Here are a few of the common issues, to help you identify problems.
 
 **Installation issues**
 
-When you try to install a package you may see error messages like the ones below:
+If the installation of a package fails you may see an error message similar to these:
 
 ```bash
 Could not find a version that satisfies the requirement <package-name (from versions: )>
@@ -78,17 +78,17 @@ Could not find a version that satisfies the requirement <package-name (from vers
 No matching distribution found for <package-name>
 ```
 
-The most common source of these errors is a mispelled package name. 
+The most common source of these errors is a misspelled package name. 
 
-You should also check that you are using the package name and not the module name. For example, the package name for PIL (Python Imaging Library) is 'pillow' and not 'PIL'. 
+You should also check that you are using the package name and not the module name. e.g. the package name for PIL (Python Imaging Library) is `pillow` and not `PIL`. 
 
 **Module import issues**
 
-If the module downloads but an error occurs when you try to import the module, check the following:
+If the package installs but an error occurs when you try to import the module, check the following:
 
-1. Which version of Python pip is installing modules into?
+1. Which version of Python pip is installing packages into?
 
-    If you have multiple versions of Python on your computer, pip might be installing modules into the folder for a different version than the one your program is using. 
+    If you have multiple versions of Python on your computer, pip might be installing modules for a different version than the one your program is using. 
 
     It may be a case of using the right version of the pip command, make sure you are using `pip3`. 
 
@@ -100,20 +100,20 @@ If the module downloads but an error occurs when you try to import the module, c
     pip3 list
     ```
 
-**Uninstalling or updating a package**
-
-In some cases you might need to uninstall a package or update to the latest version. 
-
-To uninstall a Python package type:
-
-```bash
-pip3 uninstall name_of_module
-```
+## Upgrading a package
 
 When you install a Python package that is already on your computer, it will not update it to the latest version. 
 
-To manually update a Python package type:
+Use this command to update a Python package to the latest version:
 
 ```bash
 pip3 install --upgrade name_of_module 
+```
+
+## Uninstalling a package
+
+Use this command to uninstall a Python package:
+
+```bash
+pip3 uninstall name_of_module
 ```
