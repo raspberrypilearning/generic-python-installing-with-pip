@@ -71,11 +71,11 @@ Hay documentación completa para pip en [pip.pypa.io](https://pip.pypa.io) que t
 Si la instalación de un paquete falla, es posible que veas un mensaje de error similar a estos:
 
 ```bash
-No se pudo encontrar una versión que cumpla con el requerimiento <package-name (from versions: )>
+Could not find a version that satisfies the requirement <package-name (from versions: )>
 ```
 
 ```bash
-No se encontró ninguna distribución coincidente para <package-name>
+No matching distribution found for <package-name>
 ```
 
 La causa más común de estos errores es un nombre de paquete mal escrito.
