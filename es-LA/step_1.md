@@ -1,119 +1,119 @@
-# Instalar módulos Python con pip
+# Instalación de módulos de Python con pip
 
-`pip` o `pip3` es la herramienta de línea de comandos para instalar módulos de Python 3.
+`pip` o `pip3` es una herramienta de línea de comandos para instalar módulos de Python 3.
 
-Los módulos se pueden descargar como paquetes desde el [Índice de paquetes de Python](https://pypi.python.org/pypi) e instalar en el computador de manera automática.
+Los módulos se pueden descargar como paquetes desde el [índice de paquetes de Python](https://pypi.python.org/pypi) e instalarse en tu computadora automáticamente.
 
-Para instalar un módulo, usa el comando `pip3 install name_of_module`, al reemplazar el `nombre_de_módulo` con el módulo que deseas instalar.
+Para instalar un módulo, usa el comando `pip3 install nombre_de_módulo`, reemplazando `nombre_de_módulo` con el módulo que quieres instalar.
 
-Sigue las siguientes instrucciones para el sistema operativo.
+Sigue las instrucciones a continuación que correspondan a tu sistema operativo.
 
 ## Raspberry Pi
 
-+ Abra una ventana de terminal haciendo clic en **Menú** > **Accesorios** > **Terminal**.
++ Abre una ventana de terminal haciendo clic en **Menú** > **Accesorios** > **Terminal**.
 
-+ Escribe este comando para instalar el módulo:
++ Introduce este comando para instalar un módulo:
 
 ```bash
-sudo pip3 install name_of_module
+sudo pip3 install nombre_de_módulo
 ```
 
-![Instalación de pi pip](images/pi_pip_install.gif)
+![instalación de pip en Pi](images/pi_pip_install.gif)
 
 Si tienes problemas, echa un vistazo a nuestra guía [_Usar pip en Raspberry Pi_](https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi).
 
 ## Windows
 
-+ Abra un símbolo del sistema haciendo clic en **Inicio** > **Sistema Windows** > **Símbolo del sistema**o escribiendo "comando" en la barra de búsqueda del menú de inicio.
++ Abre un símbolo del sistema haciendo clic en **Inicio** > **Sistema de Windows** > **Símbolo del Sistema**, o escribiendo 'comando' en la barra de búsqueda del menú de inicio.
 
-![símbolo del sistema de windows](images/windows_command_prompt_app.PNG)
+![símbolo del sistema de Windows](images/windows_command_prompt_app.PNG)
 
-+ Escribe este comando para instalar el módulo:
-
-```bash
-pip3 install name_of_module
-```
-
-![Instalación de pip de windows](images/windows_pip_install.gif)
-
-Si tienes problemas, consulta nuestra guía [_Usar pip en Windows_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
-
-## macOS
-
-+ Abra una ventana de terminal haciendo clic en **Aplicaciones** > **Utilidades** > **Terminal**, o escribiendo 'terminal' en la barra de búsqueda del escritorio.
-
-+ Escribe este comando para instalar el módulo:
++ Introduce este comando para instalar un módulo:
 
 ```bash
-pip3 install name_of_module
+pip3 install nombre_de_módulo
 ```
 
-![Instalación de mac pip](images/mac_pip_install.gif)
+![Instalación de pip en Windows](images/windows_pip_install.gif)
+
+Si tienes problemas, echa un vistazo a nuestra guía [_Usar pip en Windows_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
+
+## MacOS
+
++ Abre una ventana de terminal haciendo clic en **Aplicaciones** > **Utilidades** > **Terminal**, o escribiendo 'terminal' en la barra de búsqueda del escritorio.
+
++ Introduce este comando para instalar un módulo:
+
+```bash
+pip3 install nombre_de_módulo
+```
+
+![instalación de pip en Mac](images/mac_pip_install.gif)
 
 ## Linux
 
-+ Abra una ventana de terminal.
++ Abre una ventana de terminal.
 
-+ Escribe este comando para instalar el módulo:
-
-```bash
-sudo pip3 install name_of_module
-```
-
-![Instalación de Linux pip](images/linux_pip_install.gif)
-
-## Troubleshooting installation issues
-
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Here are a few of the common issues, to help you identify problems.
-
-**Installation issues**
-
-If the installation of a package fails you may see an error message similar to these:
++ Introduce este comando para instalar un módulo:
 
 ```bash
-Could not find a version that satisfies the requirement <package-name (from versions: )>
+sudo pip3 install nombre_de_módulo
+```
+
+![Instalación de pip en Linux](images/linux_pip_install.gif)
+
+## Solución de problemas de instalación
+
+Hay documentación completa para pip en [pip.pypa.io](https://pip.pypa.io) que te ayudará con la solución de problemas. A continuación, se muestran algunos de los problemas habituales que te ayudarán a identificarlos.
+
+**Problemas de instalación**
+
+Si la instalación de un paquete falla, es posible que veas un mensaje de error similar a estos:
+
+```bash
+No se pudo encontrar una versión que cumpla con el requerimiento <package-name (from versions: )>
 ```
 
 ```bash
-No matching distribution found for <package-name>
+No se encontró ninguna distribución coincidente para <package-name>
 ```
 
-The most common source of these errors is a misspelled package name.
+La causa más común de estos errores es un nombre de paquete mal escrito.
 
-You should also check that you are using the package name and not the module name. e.g. the package name for PIL (Python Imaging Library) is `pillow` and not `PIL`.
+También debes verificar que estás utilizando el nombre del paquete y no el nombre del módulo. Por ejemplo, el nombre del paquete para PIL (Python Imaging Library) es `almohada` y no `PIL`.
 
-**Module import issues**
+**Problemas de importación de módulos**
 
-If the package installs but an error occurs when you try to import the module, check the following:
+Si el paquete se instala pero se produce un error cuando intentas importar el módulo, verifica lo siguiente:
 
-1. Which version of Python pip is installing packages into?
+1. ¿En qué versión de Python está instalando pip los paquetes?
 
-    If you have multiple versions of Python on your computer, pip might be installing modules for a different version than the one your program is using.
+    Si tienes varias versiones de Python en tu computadora, pip podría estar instalando módulos para una versión diferente de la que está usando tu programa.
 
-    It may be a case of using the right version of the pip command, make sure you are using `pip3`.
+    Puede tener que ver con estar usando la versión correcta del comando pip; asegúrate de estar usando `pip3`.
 
-2. Is the package included in your package list?
+2. ¿Está incluido el paquete en tu lista de paquetes?
 
-    You can use the following command to list all the Python packages you have installed.
+    Puedes usar el siguiente comando para ver una lista de todos los paquetes de Python que has instalado.
 
     ```bash
     pip3 list
     ```
 
-## Upgrading a package
+## Actualización de un paquete
 
-When you install a Python package that is already on your computer, it will not update it to the latest version.
+Cuando instalas un paquete de Python que ya está en tu computadora, esta no lo actualizará a la última versión.
 
-Use this command to update a Python package to the latest version:
+Usa este comando para actualizar un paquete de Python a la última versión:
 
 ```bash
-pip3 install --upgrade name_of_module 
+pip3 install --upgrade nombre_de_módulo 
 ```
 
-## Uninstalling a package
+## Desinstalación un paquete
 
-Use this command to uninstall a Python package:
+Usa este comando para desinstalar un paquete de Python:
 
 ```bash
-pip3 uninstall name_of_module
+pip3 uninstall nombre_de_módulo
 ```
