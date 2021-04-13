@@ -34,7 +34,7 @@ sudo pip3 install मोड्यूल_का_नाम
 pip3 install मोड्यूल_का_नाम
 ```
 
-![windows pip install](images / windows_pip_install.gif)
+![windows pip install](images/windows_pip_install.gif)
 
 यदि आप समस्याओं का अनुभव करते हैं, तो हमारी गाइड [_विंडोज पर पिप का उपयोग करना_](https://projects.raspberrypi.org/hi-IN/projects/using-pip-on-windows) पर एक नज़र डालें।
 
