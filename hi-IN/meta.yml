@@ -1,0 +1,15 @@
+---
+title: पिप के साथ पायथन मॉड्यूल स्थापित करना
+hero_image: images/banner.png
+description: पिप के साथ पायथन मॉड्यूल स्थापित करना
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 #possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ""
+technologies: "python"
+site_areas:
+steps:
+  - title: पायथन मॉड्यूल स्थापित करना
