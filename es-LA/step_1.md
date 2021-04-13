@@ -80,7 +80,7 @@ No se encontró ninguna distribución coincidente para <package-name>
 
 La causa más común de estos errores es un nombre de paquete mal escrito.
 
-También debes verificar que estás utilizando el nombre del paquete y no el nombre del módulo. Por ejemplo, el nombre del paquete para PIL (Python Imaging Library) es `almohada` y no `PIL`.
+También debes verificar que estás utilizando el nombre del paquete y no el nombre del módulo. Por ejemplo, el nombre del paquete para PIL (Python Imaging Library) es `pillow` y no `PIL`.
 
 **Problemas de importación de módulos**
 
