@@ -1,119 +1,119 @@
-# Installing Python modules with pip
+# पिप के साथ पायथन मॉड्यूल स्थापित करना
 
-`pip` or `pip3` is a command line tool for installing Python 3 modules.
+`pip` या `pip3`, पायथन 3 मॉड्यूल को स्थापित करने के लिए एक कमांड लाइन उपकरण है।
 
-Modules can be downloaded as packages from the [Python Package Index](https://pypi.python.org/pypi) and installed on your computer automatically.
+मॉड्यूल को [Python Package Index](https://pypi.python.org/pypi) से पैकेज के रूप में डाउनलोड किया जा सकता है और आपके कंप्यूटर पर स्वचालित रूप से इंस्टॉल किया जा सकता है।
 
-To install a module, use the `pip3 install name_of_module` command, replacing `name_of_module` with the module you wish to install.
+एक मॉड्यूल स्थापित करने के लिए कमांड उपयोग करें `pip3 install name_of_module`, इसमे `name_of_module` जगह आपके इच्छानुसार मॉड्यूल को स्थापित करने के लिए भरे।
 
-Follow the instructions below for your operating system.
+अपने ऑपरेटिंग सिस्टम अनुसार नीचे दिए गए निर्देशों का पालन करें।
 
-## Raspberry Pi
+## रास्पबेरी पाई
 
-+ Open a terminal window by clicking **Menu** > **Accessories** > **Terminal**.
++ **Menu** > **Accessories** > **Terminal** क्लिक करके एक टर्मिनल विंडो खोलें।
 
-+ Enter this command to install a module:
++ मॉड्यूल स्थापित करने के लिए यह कमांड दर्ज करें:
 
 ```bash
-sudo pip3 install name_of_module
+sudo pip3 install मोड्यूल_का_नाम
 ```
 
-![pi pip install](images/pi_pip_install.gif)
+![pi pip install](images / pi_pip_install.gif)
 
-If you experience problems, have a look at our guide [_Using pip on Raspberry Pi_](https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi).
+यदि आप समस्याओं का अनुभव करते हैं, तो हमारी गाइड [_रास्पबेरी पाई पर पिप का उपयोग करना_](https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi) पर एक नज़र डालें।
 
-## Windows
+## विंडोज
 
-+ Open a command prompt by clicking **Start** > **Windows System** > **Command Prompt**, or by typing 'command' into the start menu's search bar.
++ एक कमांड प्रॉम्प्ट को **Start** > **Windows System** > **Command Prompt** पर क्लिक करके या स्टार्ट मेनू के सर्च बार में 'command' टाइप करके खोलें।
 
-![windows command prompt](images/windows_command_prompt_app.PNG)
+![windows command prompt](images / windows_command_prompt_app.PNG)
 
-+ Enter this command to install a module:
++ मॉड्यूल स्थापित करने के लिए यह कमांड दर्ज करें:
 
 ```bash
-pip3 install name_of_module
+pip3 install मोड्यूल_का_नाम
 ```
 
-![windows pip install](images/windows_pip_install.gif)
+![windows pip install](images / windows_pip_install.gif)
 
-If you experience problems, have a look at our guide [_Using pip on Windows_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
+यदि आप समस्याओं का अनुभव करते हैं, तो हमारी गाइड [_विंडोज पर पिप का उपयोग करना_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows) पर एक नज़र डालें।
 
-## macOS
+## मैक ओएस
 
-+ Open a terminal window by clicking **Applications** > **Utilities** > **Terminal**, or by typing 'terminal' into the desktop's search bar.
++ **Applications** > **Utilities** > **Terminal**पर क्लिक करके या डेस्कटॉप के खोज बार में 'Terminal' टाइप करके एक टर्मिनल विंडो खोलें।
 
-+ Enter this command to install a module:
++ मॉड्यूल स्थापित करने के लिए यह कमांड दर्ज करें:
 
 ```bash
-pip3 install name_of_module
+pip3 install मोड्यूल_का_नाम
 ```
 
 ![mac pip install](images/mac_pip_install.gif)
 
-## Linux
+## लिनक्स
 
-+ Open a terminal window.
++ एक टर्मिनल विंडो खोलें।
 
-+ Enter this command to install a module:
++ मॉड्यूल स्थापित करने के लिए यह कमांड दर्ज करें:
 
 ```bash
-sudo pip3 install name_of_module
+sudo pip3 install मोड्यूल_का_नाम
 ```
 
 ![linux pip install](images/linux_pip_install.gif)
 
-## Troubleshooting installation issues
+## स्थापना मुद्दो का समस्या निवारण
 
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Here are a few of the common issues, to help you identify problems.
+[pip.pypa.io](https://pip.pypa.io) पर पिप के लिए व्यापक प्रलेखन है जो आपको समस्या निवारण में मदद करेगा। समस्याओं की पहचान करने में मदद करने के लिए यहां कुछ सामान्य मुद्दे दिए गए हैं।
 
-**Installation issues**
+**स्थापना के मुद्दे**
 
-If the installation of a package fails you may see an error message similar to these:
+यदि पैकेज की स्थापना विफल हो जाती है, तो आपको इसके समान त्रुटि संदेश दिखाई दे सकता है:
 
 ```bash
-Could not find a version that satisfies the requirement <package-name (from versions: )>
+आवश्यकता अनुसार एक संस्करण नहीं ढूंढ सका <package-name (from versions: )>
 ```
 
 ```bash
-No matching distribution found for <package-name>
+<package-name>नाम से कोई वितरण नहीं मिला
 ```
 
-The most common source of these errors is a misspelled package name.
+इन त्रुटियों का सबसे आम स्रोत गलत पैकेज नाम है।
 
-You should also check that you are using the package name and not the module name. e.g. the package name for PIL (Python Imaging Library) is `pillow` and not `PIL`.
+आपको यह भी जांचना चाहिए कि आप पैकेज नाम का उपयोग कर रहे हैं ना कि मॉड्यूल नाम का। उदाहरण के लिए PIL (पायथन इमेजिंग लाइब्रेरी) के लिए पैकेज का नाम ` pillow ` ना कि `PIL`।
 
-**Module import issues**
+**मॉड्यूल आयात मुद्दों**
 
-If the package installs but an error occurs when you try to import the module, check the following:
+यदि पैकेज स्थापित होता है, लेकिन मॉड्यूल आयात करने का प्रयास करते समय कोई त्रुटि उत्पन्न होती है, तो निम्न जांचें:
 
-1. Which version of Python pip is installing packages into?
+1. आप पायथन पिप का कौन सा संस्करण पैकेज स्थापित कर रहे है?
 
-    If you have multiple versions of Python on your computer, pip might be installing modules for a different version than the one your program is using.
+    यदि आपके पास आपके कंप्यूटर पर पायथन के कई संस्करण हैं, तो पिप आपके द्वारा उपयोग किए जा रहे प्रोग्राम की तुलना में भिन्न संस्करण के लिए मॉड्यूल स्थापित कर सकता है।
 
-    It may be a case of using the right version of the pip command, make sure you are using `pip3`.
+    यह पिप कमांड के सही संस्करण का उपयोग करने का मामला हो सकता है, सुनिश्चित करें कि आप `pip3`का उपयोग कर रहे हैं।
 
-2. Is the package included in your package list?
+2. क्या पैकेज का नाम आपकी पैकेज सूची में शामिल है?
 
-    You can use the following command to list all the Python packages you have installed.
+    आपके द्वारा इंस्टॉल किए गए सभी पायथन पैकेजों को सूचीबद्ध करने के लिए आप निम्न कमांड का उपयोग कर सकते हैं।
 
     ```bash
     pip3 list
     ```
 
-## Upgrading a package
+## पैकेज को अपडेट करना
 
-When you install a Python package that is already on your computer, it will not update it to the latest version.
+जब आप एक पायथन पैकेज स्थापित करते हैं जो पहले से ही आपके कंप्यूटर पर है, तो यह इसे नवीनतम संस्करण में अपडेट नहीं करेगा।
 
-Use this command to update a Python package to the latest version:
+पायथन पैकेज को नवीनतम संस्करण में अपडेट करने के लिए इस कमांड का उपयोग करें:
 
 ```bash
-pip3 install --upgrade name_of_module 
+pip3 install --upgrade मोड्यूल_का_नाम 
 ```
 
-## Uninstalling a package
+## पैकेज की स्थापना रद्द करना
 
-Use this command to uninstall a Python package:
+पायथन पैकेज की स्थापना रद्द करने के लिए इस कमांड का उपयोग करें:
 
 ```bash
-pip3 uninstall name_of_module
+pip3 uninstall मोड्यूल_का_नाम
 ```
