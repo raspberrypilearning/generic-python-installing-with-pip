@@ -4,7 +4,7 @@
 
 मॉड्यूल को [Python Package Index](https://pypi.python.org/pypi) से पैकेज के रूप में डाउनलोड किया जा सकता है और आपके कंप्यूटर पर स्वचालित रूप से इंस्टॉल किया जा सकता है।
 
-एक मॉड्यूल स्थापित करने के लिए कमांड उपयोग करें `pip3 install name_of_module`, इसमे `name_of_module` जगह आपके इच्छानुसार मॉड्यूल को स्थापित करने के लिए भरे।
+एक मॉड्यूल स्थापित करने के लिए कमांड उपयोग करें `pip3 install मोड्यूल_का_नाम`, इसमे `मोड्यूल_का_नाम` जगह आपके इच्छानुसार मॉड्यूल को स्थापित करने के लिए भरे।
 
 अपने ऑपरेटिंग सिस्टम अनुसार नीचे दिए गए निर्देशों का पालन करें।
 
@@ -26,7 +26,7 @@ sudo pip3 install मोड्यूल_का_नाम
 
 + एक कमांड प्रॉम्प्ट को **Start** > **Windows System** > **Command Prompt** पर क्लिक करके या स्टार्ट मेनू के सर्च बार में 'command' टाइप करके खोलें।
 
-![windows command prompt](images / windows_command_prompt_app.PNG)
+![windows command prompt](images/windows_command_prompt_app.PNG)
 
 + मॉड्यूल स्थापित करने के लिए यह कमांड दर्ज करें:
 
@@ -34,7 +34,7 @@ sudo pip3 install मोड्यूल_का_नाम
 pip3 install मोड्यूल_का_नाम
 ```
 
-![windows pip install](images / windows_pip_install.gif)
+![windows pip install](images/windows_pip_install.gif)
 
 यदि आप समस्याओं का अनुभव करते हैं, तो हमारी गाइड [_विंडोज पर पिप का उपयोग करना_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows) पर एक नज़र डालें।
 
@@ -71,11 +71,11 @@ sudo pip3 install मोड्यूल_का_नाम
 यदि पैकेज की स्थापना विफल हो जाती है, तो आपको इसके समान त्रुटि संदेश दिखाई दे सकता है:
 
 ```bash
-आवश्यकता अनुसार एक संस्करण नहीं ढूंढ सका <package-name (from versions: )>
+Could not find a version that satisfies the requirement <package-name (from versions: )>
 ```
 
 ```bash
-<package-name>नाम से कोई वितरण नहीं मिला
+No matching distribution found for <package-name>
 ```
 
 इन त्रुटियों का सबसे आम स्रोत गलत पैकेज नाम है।
