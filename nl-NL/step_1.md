@@ -62,58 +62,58 @@ sudo pip3 install naam_van_module
 
 ![Linux pip installatie](images/linux_pip_install.gif)
 
-## Troubleshooting installation issues
+## Installatieproblemen oplossen
 
-There is comprehensive documentation for pip at [pip.pypa.io](https://pip.pypa.io) which will help you with troubleshooting. Here are a few of the common issues, to help you identify problems.
+Er is uitgebreide documentatie voor pip op [pip.pypa.io](https://pip.pypa.io) die je zal helpen bij het oplossen van problemen. Hier zijn een paar van de veelvoorkomende zaken om je te helpen problemen op te sporen.
 
-**Installation issues**
+**Installatieproblemen**
 
-If the installation of a package fails you may see an error message similar to these:
+Als de installatie van een pakket mislukt zie je misschien een foutmelding die lijkt op deze:
 
 ```bash
-Could not find a version that satisfies the requirement <package-name (from versions: )>
+Kan geen versie vinden die aan de eis voldoet <package-name (from versions: )>
 ```
 
 ```bash
-No matching distribution found for <package-name>
+Geen overeenkomende distributie gevonden voor <package-name>
 ```
 
-The most common source of these errors is a misspelled package name.
+De meest voorkomende bron van deze fouten is een verkeerd gespelde pakketnaam.
 
-You should also check that you are using the package name and not the module name. e.g. the package name for PIL (Python Imaging Library) is `pillow` and not `PIL`.
+Je moet ook controleren of je de pakketnaam en niet de modulenaam gebruikt. bijv. de pakketnaam voor PIL (Python Imaging Library) is `pillow` en niet `PIL`.
 
-**Module import issues**
+**Problemen met het importeren van modules**
 
-If the package installs but an error occurs when you try to import the module, check the following:
+Als het pakket installeert, maar er treedt een fout bij het importeren van de module, controleer dan het volgende:
 
-1. Which version of Python pip is installing packages into?
+1. In welke versie van Python installeert pip de pakketten?
 
-    If you have multiple versions of Python on your computer, pip might be installing modules for a different version than the one your program is using.
+    Als je meerdere versies van Python op je computer hebt, installeert pip mogelijk modules voor een andere versie dan degene die je programma gebruikt.
 
-    It may be a case of using the right version of the pip command, make sure you are using `pip3`.
+    Het kan een geval zijn van het gebruik van de juiste versie van het pip-commando, zorg ervoor dat je `pip3` gebruikt.
 
-2. Is the package included in your package list?
+2. Staat het pakketje op de lijst met pakketten?
 
-    You can use the following command to list all the Python packages you have installed.
+    Je kunt het volgende commando gebruiken om alle Python-pakketten te tonen die je hebt geïnstalleerd.
 
     ```bash
     pip3 list
     ```
 
-## Upgrading a package
+## Een pakket upgraden
 
-When you install a Python package that is already on your computer, it will not update it to the latest version.
+Wanneer je een Python-pakket installeert dat al op je computer staat, zal het niet naar de nieuwste versie updaten.
 
-Use this command to update a Python package to the latest version:
+Gebruik dit commando om een Python-pakket bij te werken naar de nieuwste versie:
 
 ```bash
-pip3 install --upgrade name_of_module 
+pip3 install --upgrade naam_van_module 
 ```
 
-## Uninstalling a package
+## Een pakket verwijderen
 
-Use this command to uninstall a Python package:
+Gebruik dit commando om een Python-pakket te verwijderen:
 
 ```bash
-pip3 uninstall name_of_module
+pip3 uninstall naam_van_module
 ```
